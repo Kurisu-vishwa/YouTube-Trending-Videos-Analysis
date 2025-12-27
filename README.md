@@ -5,14 +5,14 @@ The goal is to uncover patterns related to content categories, creator dominance
 Rather than focusing only on raw popularity (views), this analysis emphasizes engagement ratios and temporal behavior, which provide a more realistic picture of audience interaction.
 
 # Dataset Overview
-Source: YouTube Trending Videos dataset from Kaggle: https://www.kaggle.com/datasets/rsrishav/youtube-trending-video-dataset
-Region: United States
-Data includes:
-Video metadata (title, channel, category)
-Publish timestamps
-View, like, and comment counts
-Trending dates
-Each row represents a video that appeared on YouTube’s trending list.
+* Source: YouTube Trending Videos dataset from Kaggle: https://www.kaggle.com/datasets/rsrishav/youtube-trending-video-dataset
+* Region: United States
+* Data includes:
+   Video metadata (title, channel, category)
+* Publish timestamps
+   View, like, and comment counts
+* Trending dates
+   Each row represents a video that appeared on YouTube’s trending list.
 
 # Tools Used
 * Python
@@ -53,7 +53,7 @@ Each row represents a video that appeared on YouTube’s trending list.
 7. Engagement quality varies less by time than trending frequency, indicating that timing affects visibility more than interaction depth.
 
 # Limitations
-1. The dataset includes only trending videos, not the full YouTube population.
-2. Findings are descriptive, not causal.
-3. Engagement ratios may be affected by disabled likes/comments or low-view edge cases.
-4. Results are specific to a region and time period.
+* The dataset includes only trending videos, not the full YouTube population.
+* Findings are descriptive, not causal.
+*  Engagement ratios may be affected by disabled likes/comments or low-view edge cases.
+*   Results are specific to a region and time period.
