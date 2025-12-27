@@ -15,11 +15,11 @@ Trending dates
 Each row represents a video that appeared on YouTube’s trending list.
 
 # Tools Used
-Python
-Pandas – data cleaning and aggregation
-Matplotlib – visualizations
-NumPy – numerical operations
-Jupyter Notebook – analysis workflow
+* Python
+* Pandas – data cleaning and aggregation
+* Matplotlib – visualizations
+* NumPy – numerical operations
+* Jupyter Notebook – analysis workflow
 
 # Key Analysis Performed
   1. Category & Channel Analysis
@@ -44,16 +44,16 @@ Jupyter Notebook – analysis workflow
       Studied how engagement varies with publish timing
 
 # Key Findings
-Entertainment, Gaming, and Music dominate trending by volume.
-Education and How-to & Style videos show stronger engagement per view, despite trending less often.
-Trending visibility is highly concentrated among a small number of established channels.
-View counts follow a right-skewed (long-tail) distribution, where a few viral videos account for massive reach.
-Late afternoon to early evening (~3 PM – 6 PM) is the most common publish window for trending videos.
-Friday shows the highest trending activity among weekdays.
-Engagement quality varies less by time than trending frequency, indicating that timing affects visibility more than interaction depth.
+1. Entertainment, Gaming, and Music dominate trending by volume.
+2. Education and How-to & Style videos show stronger engagement per view, despite trending less often.
+3. Trending visibility is highly concentrated among a small number of established channels.
+4. View counts follow a right-skewed (long-tail) distribution, where a few viral videos account for massive reach.
+5. Late afternoon to early evening (~3 PM – 6 PM) is the most common publish window for trending videos.
+6. Friday shows the highest trending activity among weekdays.
+7. Engagement quality varies less by time than trending frequency, indicating that timing affects visibility more than interaction depth.
 
 # Limitations
-The dataset includes only trending videos, not the full YouTube population.
-Findings are descriptive, not causal.
-Engagement ratios may be affected by disabled likes/comments or low-view edge cases.
-Results are specific to a region and time period.
+1. The dataset includes only trending videos, not the full YouTube population.
+2. Findings are descriptive, not causal.
+3. Engagement ratios may be affected by disabled likes/comments or low-view edge cases.
+4. Results are specific to a region and time period.
